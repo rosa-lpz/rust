@@ -27,7 +27,7 @@ fn main(){
 
 To create a new Rust project in the terminal, follow these steps:
 
-### 1. **Install Rust (if you haven't already)**
+### Install Rust (if you haven't already)**
 
 If you don’t have Rust installed:
 
@@ -43,7 +43,7 @@ source $HOME/.cargo/env
 
 ------
 
-### 2. **Create a New Project**
+### **Create a New Project**
 
 Use `cargo`, Rust’s package manager and build tool:
 
@@ -62,7 +62,7 @@ my_project/
 
 ------
 
-### 3. **Navigate to the Project Directory**
+### Navigate to the Project Directory**
 
 ```bash
 cd my_project
@@ -70,7 +70,7 @@ cd my_project
 
 ------
 
-### 4. **Build and Run the Project**
+### Build and Run the Project**
 
 To build:
 
