@@ -1,11 +1,11 @@
 # Rust
 
 ## Content
-1. Basic Concepts [Link](https://github.com/rosa-lpz/Rust/tree/main/1.%20Basic%20Concepts)
-2. Data Structures [Link](https://github.com/rosa-lpz/Rust/tree/main/2.%20Data%20Structures)
-3. Control Flow [Link](https://github.com/rosa-lpz/Rust/tree/main/3.%20Control%20Flow)
-4. Functions [Link](https://github.com/rosa-lpz/Rust/tree/main/4.%20Functions)
-5. Rust Algorithms [Link](https://github.com/rosa-lpz/Rust/tree/main/Rust%20Algorithms)
+1. [Basic Concepts](01_basic-concepts)
+2. [Data Structures](02_data-structures)
+3. [Functions](03_functions)
+4. [Control Structures](04_control-structures)
+5. [Rust Algorithms](algorithms)
 
 
 
