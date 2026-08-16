@@ -1,11 +1,5 @@
 # Rust
 
-Rust basics
-
-
-
-
-
 ## Basic Concepts
 
 **Rust** is a systems programming language focused on:
