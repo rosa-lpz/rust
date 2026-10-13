@@ -129,4 +129,6 @@ Pay is 498.75
 # References
 
 * https://doc.rust-lang.org/book/ch03-05-control-flow.html#if-expressions
+* https://doc.rust-lang.org/book/ch03-02-data-types.html
+* https://doc.rust-lang.org/rust-by-example/flow_control/if_else.html
 
