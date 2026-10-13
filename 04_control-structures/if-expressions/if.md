@@ -52,7 +52,7 @@ number was something other than zero
 
 ```rust
 fn main() {
-    let number = 3;
+    let number = 0;
 
     if number > 0 {
         println!("number is a positive number");
@@ -72,9 +72,72 @@ cargo run # to run
 **Output**
 
 ```bash
-number was something other than zero
+number is a positive number
 ```
 
 
 
-### 
+### Example 3
+
+Let’s try changing the value of `number` to a value 0 that makes the condition `false` to see what happens:
+
+```rust
+fn main() {
+    let number = 0;
+
+    if number > 0 {
+        println!("number is a positive number");
+    }
+}
+```
+
+
+
+**Build / run project**
+
+```bash
+cargo build # to build
+cargo run # to run
+```
+
+**Output**
+
+```bash
+
+```
+
+* No output of this example
+
+
+
+### Example 4
+
+It’s also worth noting that the condition in this code *must* be a `bool`. If the condition isn’t a `bool`, we’ll get an error. For example, try running the following code:
+
+```rust
+fn main() {
+    let number = 0;
+
+    if number > 0 {
+        println!("number is a positive number");
+    }
+}
+```
+
+
+
+**Build / run project**
+
+```bash
+cargo build # to build
+cargo run # to run
+```
+
+**Output**
+
+```bash
+
+```
+
+* No output of this example
+
