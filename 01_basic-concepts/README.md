@@ -62,7 +62,7 @@ my_project/
 
 ------
 
-### Navigate to the Project Directory**
+### Navigate to the Project Directory
 
 ```bash
 cd my_project
@@ -70,7 +70,7 @@ cd my_project
 
 ------
 
-### Build and Run the Project**
+### Build and Run the Project
 
 To build:
 

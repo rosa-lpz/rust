@@ -36,6 +36,10 @@ If you're just getting started with Rust and would like a more detailed walk-thr
 
   If at any point you would like to uninstall Rust, you can run  `rustup self uninstall`.  We'll miss you though!
 
+
+
+
+
 # References
 
 * https://rust-lang.org/tools/install/
