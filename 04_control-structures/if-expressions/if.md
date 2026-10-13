@@ -116,10 +116,10 @@ It’s also worth noting that the condition in this code *must* be a `bool`. If 
 
 ```rust
 fn main() {
-    let number = 0;
+    let number = 3;
 
-    if number > 0 {
-        println!("number is a positive number");
+    if number {
+        println!("number was three");
     }
 }
 ```
@@ -135,9 +135,19 @@ cargo run # to run
 
 **Output**
 
-```bash
+The `if` condition evaluates to a value of `3` this time, and Rust throws an error:
 
+```bash
+error[E0308]: mismatched types
+ --> src/main.rs:4:8
+  |
+4 |     if number {
+  |        ^^^^^^ expected `bool`, found integer
+
+For more information about this error, try `rustc --explain E0308`.
 ```
 
-* No output of this example
+
+
+The error indicates that Rust expected a `bool` but got an integer. Unlike languages such as Ruby and JavaScript, Rust will not automatically try to convert non-Boolean types to a Boolean. You must be explicit and always provide `if` with a Boolean as its condition. 
 
