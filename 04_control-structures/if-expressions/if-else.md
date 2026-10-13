@@ -94,16 +94,19 @@ Write a program to prompt the user for hours and rate per hour using input to co
 
 ```rust
 fn main() {
-    let hours = 45;
-	let rate=1.5;
+    let hours:f64 = 45.0;
+	let rate:f64=10.5;
     
-    if hours > 40 {
-    	let hours_above= hours-40;
-    	let pay=(40*rate) + hours_above*(rate*1.5);
+    if hours > 40.0 {
+    	let hours_above:f64= hours-40.0;
+    	let pay:f64=(40.0*rate) + hours_above*(rate*1.5);
+        println!("Pay is {pay}");
     } else{
-        pay=hours*rate;
+        let pay:f64=hours*rate;
+        println!("Pay is {pay}");
     }
-	println!(pay);
+	
+}
 ```
 
 
@@ -118,7 +121,7 @@ cargo run # to run
 **Output**
 
 ```bash
-Negative number
+Pay is 498.75
 ```
 
 
